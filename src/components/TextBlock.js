@@ -14,10 +14,10 @@ const TextBlock = ({ block, removeBlock }) => {
   };
 
   return (
-    <div className=" text-block lg:w-[30vw] md:w-[40vw] sm:w-full h-[30vh] bg-[#22303C] p-3 rounded-xl space-y-2">
+    <div className=" text-block lg:w-[30vw] md:w-[40vw] w-[90vw] h-[33vh] bg-[#22303C] p-3 rounded-xl space-y-2">
       {/* Text area */}
       <ReactQuill
-        className="h-[170px] rounded-md overflow-hidden bg-[#edf6f9]"
+        className="h-[198px] rounded-md overflow-hidden bg-[#edf6f9]"
         value={text}
         onChange={handleTextChange}
         modules={{

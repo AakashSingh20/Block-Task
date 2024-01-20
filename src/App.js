@@ -57,7 +57,7 @@ const App = () => {
                   />
                 </Button>
                 <Button
-                  className="bg-gray-700"
+                  className="bg-gray-700 "
                   type="primary"
                   onClick={() => addBlock("image", index)}
                 >
@@ -75,23 +75,23 @@ const App = () => {
           {blocks.length === 0 && (
             <div className="add m-4 space-x-4">
               <Button
-                className=" bg-gray-700"
+                className=" bg-gray-700 w-[60px] h-[40px]"
                 type="primary"
                 onClick={() => addBlock("text", blocks.length - 1)}
               >
                 <img
-                  className="h-[100%] invert-image"
+                  className="h-[90%] invert-image"
                   src="img/document.png"
                   alt="add pic"
                 />
               </Button>
               <Button
-                className="bg-gray-700"
+                className="bg-gray-700 w-[60px] h-[40px]"
                 type="primary"
                 onClick={() => addBlock("image", blocks.length - 1)}
               >
                 <img
-                  className="h-[100%] invert-image"
+                  className="h-[90%] invert-image"
                   src="img/image.png"
                   alt="add pic"
                 />

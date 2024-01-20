@@ -19,7 +19,7 @@ const ImageBlock = ({ block, removeBlock }) => {
   return (
     <>
       {/* Image block container */}
-      <div className="image-block lg:w-[30vw] md:w-[40vw] sm:w-full h-[33vh] rounded-xl p-3 bg-[#22303C] space-y-2">
+      <div className="image-block lg:w-[30vw] md:w-[40vw] w-[90vw] h-[33vh] rounded-xl p-3 bg-[#22303C] space-y-2">
         {/* Image display area */}
         <div className="h-[84%] rounded-md overflow-hidden">
           {image ? (
