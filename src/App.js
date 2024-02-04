@@ -6,6 +6,7 @@ import ImageBlock from "./components/ImageBlock";
 
 const App = () => {
   const [blocks, setBlocks] = useState([]);
+const [test, settest] = useState('')
 
   // Function to add a new block at a specific index
   const addBlock = (type, index) => {
@@ -19,6 +20,8 @@ const App = () => {
       return updatedBlocks;
     });
   };
+
+  
 
   // Function to remove a block by its ID
   const removeBlock = (id) => {
