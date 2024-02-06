@@ -6,7 +6,7 @@ import ImageBlock from "./components/ImageBlock";
 
 const App = () => {
   const [blocks, setBlocks] = useState([]);
-const [test, settest] = useState('')
+
 
   // Function to add a new block at a specific index
   const addBlock = (type, index) => {
@@ -29,6 +29,7 @@ const [test, settest] = useState('')
     const updatedBlocks = blocks.filter((block) => block.id !== id);
     setBlocks(updatedBlocks);
   };
+  
 
   return (
     <div className="app bg-[#15202b] overflow-auto">
